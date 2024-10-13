@@ -9,7 +9,7 @@ int is_overflow2(long long a, long long b) {
     return 0;  
 }
  
-long long subtract(long long a, long long b) {
+long long subtraction(long long a, long long b) {
     if (is_overflow2(a, b)) {
         printf("Error: subtraction operation causes overflow.\n");
         return LLONG_MIN; 
