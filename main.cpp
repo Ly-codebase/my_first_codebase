@@ -18,10 +18,10 @@ int main() {
     // 使用atoi函数将字符串转换为整数   
     integerValuea = atoi(inputStra);
     integerValueb = atoi(inputStrb);
-    printf("两数之和为：%d\n",****(integerValuea,integerValuea));
-    printf("两数之差为：%d\n",****(integerValuea,integerValuea));
-    printf("两数之积为：%d\n",****(integerValuea,integerValuea));
-    printf("两数之商为：%d\n",****(integerValuea,integerValuea));
-	printf("两数之模为：%d\n",Mod(integerValuea,integerValuea));
+    printf("两数之和为：%d\n",addition(integerValuea,integerValuea));
+    printf("两数之差为：%d\n",subtraction(integerValuea,integerValuea));
+    printf("两数之积为：%d\n",multiply(integerValuea,integerValuea));
+    printf("两数之商为：%d\n",divide(integerValuea,integerValuea));
+    printf("两数之模为：%d\n",Mod(integerValuea,integerValuea));
 	return 0;
 }
