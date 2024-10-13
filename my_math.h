@@ -9,7 +9,7 @@ long long subtraction(long long a,long long b);
 //积
 int multiply(int a,int b);
 //商
-double divide(double a,double b);
+int divide(int a,int b);
 //模 
 int Mod(int a,int b);
 
