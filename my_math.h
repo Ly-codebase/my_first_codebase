@@ -3,13 +3,13 @@
 
 /*自定义函数申明 */ 
 //和
-int addition(int a,int b);
+long long addition(long long a, long long b);
 //差
-int subtraction(int a,int b);
+long long subtraction(long long a,long long b);
 //积
 int multiply(int a,int b);
 //商
-int divide(int a,int b);
+double divide(double a,double b);
 //模 
 int Mod(int a,int b);
 
