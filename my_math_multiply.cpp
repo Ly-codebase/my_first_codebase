@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "my_math.h"
 
-double multiply(double a, double b) {
+int multiply(int a, int b) {
     return a * b; 
 } 
