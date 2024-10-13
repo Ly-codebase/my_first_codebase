@@ -10,7 +10,7 @@ int is_overflow1(long long a, long long b) {
 }
 
 // 加法模块
-long long add(long long a, long long b) {
+long long addition(long long a, long long b) {
     if (is_overflow1(a, -b)) {
         printf("Error: addition operation causes overflow.\n");
         return LLONG_MAX;  // 返回最小值
@@ -18,3 +18,4 @@ long long add(long long a, long long b) {
         return a + b;
     }
 }
+
